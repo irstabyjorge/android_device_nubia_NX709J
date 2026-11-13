@@ -1,0 +1,107 @@
+{
+  "commit": "3c06da15b519dab644472dfe9bdd1f78dcc1e685",
+  "commits": [
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:59:23-08:00",
+      "sha": "3c06da15b519dab644472dfe9bdd1f78dcc1e685",
+      "subject": "Install AEGIS GitHub IP SHIELD provenance workflow (#1)"
+    },
+    {
+      "author_email_sha256": "b81ebc58af9ee14f0f5d04daab5506d55f342780adc41cd2f53d9de12491f78d",
+      "author_name_declared": "Sebastiano Barezzi",
+      "authored_at_declared": "2022-08-03T09:07:37+02:00",
+      "sha": "04713a346a343347056e1d0add3324b372a4e4b4",
+      "subject": "NX709J: Initial TWRP device tree Made with SebaUbuntu's TWRP device tree generator Arch: arm64 Manufacturer: nubia Model: NX709J Script version: 2.4.0"
+    }
+  ],
+  "file_count_recorded": 11,
+  "file_inventory_truncated_at_25000": false,
+  "files": [
+    {
+      "git_blob_oid": "496523ebf8a2f8179732701a82e626efb6977e8c",
+      "mode": "100644",
+      "path": ".github/workflows/aegis-ip-shield.yml",
+      "sha256": "6b128bd094d276f1cbe06adb086ac00a7489b6131663092ec8ffe077d54ac56b"
+    },
+    {
+      "git_blob_oid": "685bd12e698ce33b15430a98936a9cd7c7e9361e",
+      "mode": "100644",
+      "path": "Android.mk",
+      "sha256": "312aef282b92d0829fda1f4fda7729b1009620e093731abdef5561300a8549fd"
+    },
+    {
+      "git_blob_oid": "086c5e25a29b709408c542ce2dee9c3a073ce1cb",
+      "mode": "100644",
+      "path": "AndroidProducts.mk",
+      "sha256": "ed962068411a4d07b31eeb9c55e0c5f973980cf31777262de7626f910b8d7d2a"
+    },
+    {
+      "git_blob_oid": "d358b21d95c7c612aade71dc61222fd8e5b9f760",
+      "mode": "100644",
+      "path": "BoardConfig.mk",
+      "sha256": "b19458d2d6ae93861979ec2f04d12bae967b0f6006ef85c617def43b51a8a964"
+    },
+    {
+      "git_blob_oid": "4f95671b43c41c96f211cc5b2ac41d0c92f0d9c3",
+      "mode": "100644",
+      "path": "device.mk",
+      "sha256": "5103956c5d8cd1e6bc39a7f580f94004a513fec47e02b3a80e41f4efabdda6f9"
+    },
+    {
+      "git_blob_oid": "388bd0b368fe13fee2faf95bca71b77f4ec8d3ae",
+      "mode": "100644",
+      "path": "docs/IP_SHIELD_GITHUB.md",
+      "sha256": "3ec29db7ad1cad94930399e26b32b7921e113253444c0e0c80bb0617e5504c1e"
+    },
+    {
+      "git_blob_oid": "0caf809851a441cade867b452db7e369a714b1db",
+      "mode": "100644",
+      "path": "omni_NX709J.mk",
+      "sha256": "022cfef3ccd49cdf1829d1425824c371c60f37ab034df31530bf03588c81e854"
+    },
+    {
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "path": "prebuilt/Image.gz-dtb",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_blob_oid": "30571fcac02371d4ef24d26e7ec09a98f6f766f7",
+      "mode": "100644",
+      "path": "recovery.fstab",
+      "sha256": "da9ab52569c1ebe7d1d0da673465bc4742dd7fd28f3f482bf9f96bba78a20ae8"
+    },
+    {
+      "git_blob_oid": "2587de1b891b8296173119c2c8f8950a7379b172",
+      "mode": "100644",
+      "path": "recovery/root/init.recovery.qcom.rc",
+      "sha256": "d546b0cac17a7b00e63d4a2e24d6dfe99fe4cf517551e64016ae55c53312ae60"
+    },
+    {
+      "git_blob_oid": "2a70e569b2f77128d4518da54799fb6362d004bd",
+      "mode": "100644",
+      "path": "vendorsetup.sh",
+      "sha256": "80e544e24ebb7bd68b61dd5f5433a5c52ad7dfb7f4b08042e3bdbfb57cab845c"
+    }
+  ],
+  "generated_at_utc_runner_clock": "2026-11-13T19:01:03.975916+00:00",
+  "limits": [
+    "Git author and timestamp fields are declared metadata, not verified identity or trusted time.",
+    "Hashes identify recorded bytes; they do not prove authorship, originality, ownership or infringement.",
+    "The report contains paths and hashes, not source-file contents.",
+    "The runner clock is not a trusted timestamp authority.",
+    "Third-party and joint contributions retain applicable rights and licenses.",
+    "The ledger branch is versioned evidence, not immutable storage.",
+    "Only this repository and triggered refs are covered."
+  ],
+  "manifest_type": "AEGIS_GITHUB_IP_SHIELD_PROVENANCE",
+  "manifest_version": "1.0",
+  "ref": "refs/heads/2022-8-3",
+  "ref_name": "2022-8-3",
+  "repository": "irstabyjorge/android_device_nubia_NX709J",
+  "tree": "3701b62f12e062cfc63dddab71b373fcb43a5e60",
+  "workflow_run_attempt": "1",
+  "workflow_run_id": "43487881185"
+}
